@@ -1,0 +1,46 @@
+form {
+    margin: auto;
+    width: 40vw;
+}
+
+span {
+    color: red;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#name input {
+    width: 19vw;
+    margin: 5px 0;
+}
+
+#mail input {
+    width: 38.6vw;
+    margin: 5px 0;
+}
+
+#thema select {
+    width: 39vw;
+    margin: 5px 0;
+}
+
+textarea {
+    width: 38.7vw;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    background-color: teal;
+    color: #fff;
+    width: 39vw;
+    margin: 5px 0;
+    padding: 5px 10px 5px 10px;
+    border: 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #000;
+}

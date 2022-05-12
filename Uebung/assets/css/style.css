@@ -6,7 +6,7 @@ Importe und Asswets
 General Styling
 --------------------------------*/
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,12 +15,16 @@ General Styling
 
 html {
     font-size: 10px;
-}
+} */
 
 /* -----------------------------
 General Styling
 --------------------------------*/
 
+.placeholder::placeholder {
+    color: red;
+    font-style: italic;
+}
 
 /* -----------------------------
 General Styling

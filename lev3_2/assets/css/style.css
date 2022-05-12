@@ -1,0 +1,124 @@
+/*-------------------------
+ GENERAL STYLE
+------------------------- */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    color: #000;
+    background-color: #fff;
+}
+
+
+/*-------------------------
+ GENERAL STYLE
+------------------------- */
+
+section {
+    margin: 25px auto 0 auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    width: 50vw;
+    height: 80vh;
+}
+
+
+/* NAVIGATION */
+nav {
+    width: 100%;
+    margin: auto;
+    padding: 30px 0 30px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 3rem;
+    padding: 30px 80px;
+}
+
+#signUpNavLeft {
+    background-color: green;
+    border-right: 2px solid white;
+}
+
+#signUpNavRight {
+    background-color: #000;
+}
+
+#loginNavLeft {
+    background-color: #000;
+    border-right: 2px solid white;
+}
+
+#loginNavRight {
+    background-color: green;
+}
+
+#loginNavLeft:hover {
+    background-color: yellowgreen;
+    transition: 0.3s;
+}
+
+#signUpNavRight:hover {
+    background-color: yellowgreen;
+    transition: 0.3s
+}
+
+#loginNavLeft:active {
+    background-color: black;
+    transition: 0.3s;
+}
+
+#signUpNavRight:active {
+    background-color: black;
+    transition: 0.3s
+}
+
+/* FORM DESGIN
+--------------------------- */
+legend {
+    font-size: 5rem;
+    padding: 5%;
+}
+
+p a {
+    color: green;
+    font-size: 2rem;
+    margin: 0 0 0 70%;
+}
+
+form div {
+    margin: 20px;
+}
+
+input[type="text"] {
+    width: 47%;
+    margin: auto;
+}
+
+input {
+    background-color: #000;
+    padding: 10px 5px;
+    width: 98%;
+}
+
+input[type="submit"] {
+    color: #fff;
+    font-size: 4rem;
+    background-color: green;
+    width: 100%;
+    padding: 30px 0 30px 0;
+    cursor: pointer;
+}

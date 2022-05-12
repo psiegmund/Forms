@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms lev3_1</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <form action="" id="contact">
+        <legend>
+            <h1>Sign up now!</h1>
+            <p>Sign up and tell us what you think about this site</p>
+        </legend>
+        <h2>First Name & Address</h2>
+        <fieldset id="nameAndAddess">
+            <div>
+                <label for="name">Your Full Name</label>
+            </div>
+            <div>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="address">Address</label>
+            </div>
+            <div>
+                <textarea name="address" id="address" cols="30" rows="2"></textarea>
+            </div>
+        </fieldset>
+        <h2>Email & Phone</h2>
+        <fieldset id="emailAndPhone">
+            <div>
+                <label for="email">Email Address</label>
+            </div>
+            <div>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="phone">Phone Number</label>
+            </div>
+            <div>
+                <input type="number" name="phone" id="phone">
+            </div>
+        </fieldset>
+        <h2>Passwords</h2>
+        <fieldset id="passwords">
+            <div>
+                <label for="passwords">Password</label>
+            </div>
+            <div>
+                <input type="password" name="password" id="password">
+            </div>
+            <div>
+                <label for="confirm">Confirm Password</label>
+            </div>
+            <div>
+                <input type="password" name="confirm" id="confirm">
+            </div>
+        </fieldset>
+        <div id="submit">
+            <input type="submit" value="Submit">
+            <input type="checkbox" name="terms" id="terms">
+            <label for="terms">You agree to our terms & policy</label>
+        </div>
+    </form>
+</body>
+
+</html>
